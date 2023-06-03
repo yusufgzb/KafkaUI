@@ -47,6 +47,7 @@ Ubuntu 22.04 LTS x86/64 lı bir makine
 > pip install python-multipart
 
 > pip install uvicorn
+
 >nohup python3 kafka_gonder.py
 
 >python3 proje.py
