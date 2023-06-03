@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kafka İşlemleri</title>
+</head>
+<body>
+    <h1>Kafka İşlemleri</h1>
+    <form method="post" action="/">
+        <label for="operation">İşlem:</label>
+        <select name="operation" required>
+            <option value="Create">Create</option>
+            <option value="Delete">Delete</option>
+            <option value="List">Liste</option>
+            <option value="Listen">Listen</option>
+        </select><br><br>
+        <label for="topic_name">Topic İsmi:</label>
+        <input type="text" name="topic_name" required><br><br>
+        <input type="submit" value="Çalıştır">
+    </form>
+
+    {% if output is defined %}
+    <h2>Çıktılar:</h2>
+    <pre>{{ output }}</pre>
+    {% endif %}
+</body>
+</html>
