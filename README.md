@@ -1,4 +1,20 @@
 # KafkaUI
+![Açıklama](my_topic.png)
+
+![Açıklama](ornek_topik.png)
+
+![Açıklama](listele.png)
+
+![Açıklama](delete.png)
+
+![Açıklama](listele_2.png)
+
+![Açıklama](create.png)
+
+![Açıklama](listele_3.png)
+
+
+
 
 Ornek kurulum GCP
 
